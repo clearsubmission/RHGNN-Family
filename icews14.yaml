@@ -1,0 +1,28 @@
+# configs/icews14.yaml
+# Hyperparameters for RHGNN-CA on ICEWS14
+# Results: MRR=0.344±0.002, H@10=0.511±0.001
+
+dataset: ICEWS14
+data_dir: data/ICEWS14
+
+# Architecture
+dim: 200
+ode_steps: 5
+curvature: 1.0
+
+# Training
+epochs: 500
+batch_size: 1024
+eval_batch: 256
+eval_every: 10
+patience: 60
+lr: 0.001
+lr_decay: 0.8
+lr_decay_every: 50
+
+# Loss components (V4/V5)
+smooth_label: 0.1
+lambda_contrast: 0.1
+contrast_temp: 0.07
+lambda_smooth: 0.01
+num_negatives: 16
