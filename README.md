@@ -1,7 +1,9 @@
 # RHGNN: Curvature-Aware Recurrent Hyperbolic GNNs for TKG Reasoning
 
-> **Anonymous submission to CIKM 2026**  
-> Paper: *Curvature-Aware Recurrent Hyperbolic GNNs for TKG Reasoning*
+Temporal knowledge graph (TKG) reasoning requires jointly modeling
+hierarchical entity relationships and continuous temporal dynamics —
+challenges that Euclidean geometry and discrete-time methods address
+poorly. We propose the **RHGNN model family**...
 
 ---
 
